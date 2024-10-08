@@ -1,7 +1,7 @@
-#include "sum.h"
-
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
+
+#include "sum.h"
 
 static PyObject *csum(PyObject *self, PyObject *args) {
 	int a, b, result;
